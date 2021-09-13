@@ -2,6 +2,27 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
+#title{
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 5px;
+  position: absolute;
+  color:rgb(224, 184, 5);
+}
+#title:hover{
+  color:rgb(8, 8, 8);
+}
+#title2{
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 5px;
+  position: absolute;
+  color:rgb(8, 8, 8);
+}
+#title2:hover{
+  color:rgb(224, 184, 5);
+}
+
 .search-field {
   border: none;
   border-radius: 50px;
@@ -42,7 +63,8 @@ body {
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
-  border: 1px solid cyan;
+  border: 2px solid cyan;
+  background-color: rgb(226, 225, 225);
 }
 .product-image {
   width: 150px;
